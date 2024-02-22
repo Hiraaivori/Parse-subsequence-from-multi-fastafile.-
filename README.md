@@ -1,9 +1,3 @@
 # Parse-subsequence-from-multi-fastafile.-
-Extraction of Subsequence from multi-fasta file
-Extract a subsequence from a given primary multi-fasta file (genome fasta) and a bed file. The extracted subsequence must be removed from the primary sequence (multifasta). You can create your own BED file. It should contain coordinates for at least 3 scaffolds.
-
-Reverse complement the extracted sequences.
-
-Introduce random 1 nucleotide change in the above extracted sequence(s); this becomes the processed subsequence(s).
-
-Insert the processed subsequence(s) back to the primary sequence(multifasta).
+In code1.py file there is Extraction of Subsequence from multi-fasta file(influenza.fna). Created a BED file with 3 scaffolds.
+in code2.py file there is reverse_complement of those extracted seqences and right after that the changes in 1 nucleotide in each extracted sequece are then append to the original fasta file(influenza.fna.1). 
